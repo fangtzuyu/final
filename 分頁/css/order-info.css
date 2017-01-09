@@ -1,0 +1,74 @@
+.person{
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.days{
+    background: url(../img/dot.png) repeat-x;
+    /*background-position: 15%;*/
+    background-size: 10px;
+}
+.days .col-sm-2{
+    writing-mode: vertical-lr ;
+}
+.days h3{
+  font-size: 22px;
+}
+.days h3,h4{
+  margin: 0px;
+  margin-top: 15px;
+}
+h3{
+  margin: 0px;
+}
+@media screen and (max-width:768px) {
+  h3{
+    font-size: 20px;
+  }
+  .person{
+    width: 70px;
+  }
+
+  @media screen and (max-width:320px) {
+    .person{
+      margin-top: 50px;
+
+    }
+    h3{
+      font-size: 20px;
+      margin-top: 20px;
+    }
+    h4{
+      font-size: 12px;
+    }
+    br{
+      display: none;
+    }
+    h4 br{
+      display: block;
+    }
+    .days h3{
+      font-size: 16px;
+      margin-top: 0px;
+    }
+    .days h4{
+      font-size: 12px;
+      margin-top: 0px;
+      margin-bottom: 15px;
+    }
+    .person{
+      width: 50px;
+      margin-bottom: -16px;
+    }
+
+    .days{
+      background: url(../img/dot.png) repeat-y left;
+        background-position: 0%;
+        background-size: 5px;
+    }
+    .days .col-xs-12{
+      margin-left: 10px;
+        writing-mode: horizontal-tb;
+    }
+  }
+}

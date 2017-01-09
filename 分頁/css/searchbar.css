@@ -1,0 +1,13 @@
+#searchbar{
+  position: fixed;
+  top: 3px;
+  right: 20px;
+  width: 250px;
+  margin: 0px;
+  padding: 0px;
+}
+@media screen and (max-width:767px) {
+  #searchbar{
+    display: none;
+  }
+}
