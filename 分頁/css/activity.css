@@ -11,6 +11,10 @@
   display: none;
 }
 @media screen and (max-width:320px) {
+  .more{
+    height: 0;
+    display: none;
+  }
   .text-center,.text-right{
     text-align: left;
   }
