@@ -1,6 +1,8 @@
 @media screen and (max-width:768px) {
   iframe{
     display: none;
+    padding: 0px;
+    margin: 0px;
   }
   .intro-body{
     background: url(../img/home_M768X420.png) no-repeat center center scroll;
@@ -10,7 +12,12 @@
       display: none;
     }
     .intro-body{
+      height: 540px;
       background: url(../img/home_S320X540.png) no-repeat center center scroll;
+    }
+    .intro{
+      padding: 0px;
+      padding-top: 10px;
     }
   }
 }
