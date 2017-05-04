@@ -10,7 +10,7 @@
 .xs-act{
   display: none;
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width:420px) {
   .more{
     height: 0;
     display: none;
